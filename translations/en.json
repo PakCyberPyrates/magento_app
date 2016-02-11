@@ -15,6 +15,16 @@
           "value": "Store URL"
         }
       },
+      "store_code": {
+        "label": {
+          "title": "Label for the Magento Store Code",
+          "value": "Store Code"
+        },
+        "helpText": {
+          "title": "Helper text for the Magento Store Code",
+          "value": "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store"
+        }
+      },
       "access_token": {
         "label": {
           "title": "Label for the Magento Access token",
