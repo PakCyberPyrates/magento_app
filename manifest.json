@@ -18,6 +18,11 @@
       "required": true
     },
     {
+      "name": "store_code",
+      "type": "text",
+      "required": false
+    },
+    {
       "name": "access_token",
       "type": "text",
       "required": true
