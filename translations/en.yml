@@ -21,12 +21,12 @@ parts:
       value: "Store URL"
   - translation:
       key: "txt.apps.magento.app.parameters.store_code.label"
-      title: "Label for the Magento Store Code"
+      title: "Label for the Magento Store Code. See for example: https://support.google.com/business/answer/4542487?hl=en"
       value: "Store Code"
   - translation:
       key: "txt.apps.magento.app.parameters.store_code.help_text"
       title: "Helper text for the Magento Store Code"
-      value: "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store"
+      value: "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store."
   - translation:
       key: "txt.apps.magento.app.parameters.access_token.label"
       title: "Label for the Magento Access token"
