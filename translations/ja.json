@@ -6,6 +6,10 @@
       "url": {
         "label": "ストアのURL"
       },
+      "store_code": {
+        "label": "店舗コード",
+        "help_text": "Magentoストアで「Add Store Code to Urls」を「Yes」に設定している場合、使用するデフォルトの店舗コードを追加します。"
+      },
       "access_token": {
         "label": "アクセストークン"
       },

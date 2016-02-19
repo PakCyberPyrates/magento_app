@@ -6,6 +6,10 @@
       "url": {
         "label": "Butikens webbadress"
       },
+      "store_code": {
+        "label": "Butikskod",
+        "help_text": "Lägg till den förvalda butikskod du använder om du har ställt in ”Add Store Code to Urls” på ”Yes” i din Magento-butik."
+      },
       "access_token": {
         "label": "Åtkomsttoken"
       },

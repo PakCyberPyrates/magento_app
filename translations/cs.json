@@ -6,6 +6,10 @@
       "url": {
         "label": "URL obchodu"
       },
+      "store_code": {
+        "label": "Kód obchodu",
+        "help_text": "Pokud máte ve svém obchodu Magento možnost „Add Store Code to Urls“ (Přidávat k URL kódy obchodu) nastavenou na „Yes“ (Ano), přidejte kód výchozího obchodu, který používáte."
+      },
       "access_token": {
         "label": "Přístupový token"
       },

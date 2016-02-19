@@ -6,8 +6,12 @@
       "url": {
         "label": "URL du magasin"
       },
+      "store_code": {
+        "label": "Code de magasin",
+        "help_text": "Si vous avez configuré « Add Store Code to Urls » sur « Yes » dans votre magasin Magento, ajoutez le code de magasin par défaut que vous utilisez."
+      },
       "access_token": {
-        "label": "Jeton d’accès"
+        "label": "Token d’accès"
       },
       "order_id_field_id": {
         "label": "ID de champ du numéro de commande"

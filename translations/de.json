@@ -6,6 +6,10 @@
       "url": {
         "label": "Shop-URL"
       },
+      "store_code": {
+        "label": "Shop-Code",
+        "help_text": "Fügen Sie Ihren Standard-Shop-Code hinzu, wenn die Option „Add Store Code to Urls“ in Ihrem Magento-Shop auf „Yes“ gesetzt ist."
+      },
       "access_token": {
         "label": "Zugriffstoken"
       },

@@ -6,6 +6,10 @@
       "url": {
         "label": "URL negozio"
       },
+      "store_code": {
+        "label": "Codice negozio",
+        "help_text": "Se l’opzione “Add Store Code to URLs” nel negozio Magento è impostata su “Yes”, aggiungi il codice predefinito usato per il negozio."
+      },
       "access_token": {
         "label": "Token di accesso"
       },

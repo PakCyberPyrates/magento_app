@@ -6,6 +6,10 @@
       "url": {
         "label": "Mağaza URL"
       },
+      "store_code": {
+        "label": "Mağaza Kodu",
+        "help_text": "Magento mağazanızda “Mağaza Kodunu Url’lere Ekle” ayarı “Evet”se, kullandığınız varsayılan mağaza kodunu ekleyin."
+      },
       "access_token": {
         "label": "Erişim belirteci"
       },

@@ -6,8 +6,12 @@
       "url": {
         "label": "Säilytä URL-osoite"
       },
+      "store_code": {
+        "label": "Myymälän koodi",
+        "help_text": "Lisää käyttämäsi oletusmyymäläkoodi, jos kohdassa Add Store Code to Urls on valittu Magento-myymälälle asetus Yes."
+      },
       "access_token": {
-        "label": "Käyttöoikeustunnus"
+        "label": "Käyttöoikeustoken"
       },
       "order_id_field_id": {
         "label": "Tilausnumeron kenttätunnus"
