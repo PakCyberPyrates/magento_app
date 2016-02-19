@@ -6,8 +6,12 @@
       "url": {
         "label": "عنوان URL المتجر"
       },
+      "store_code": {
+        "label": "Store Code",
+        "help_text": "أضف store code الافتراضي الذي تستخدمه، حال كان  'Add Store Code to Urls' معيناً إلى 'Yes' على متجر Magento لديك."
+      },
       "access_token": {
-        "label": "رمز مميز للوصول"
+        "label": "إذن للوصول"
       },
       "order_id_field_id": {
         "label": "Order ID Field ID"

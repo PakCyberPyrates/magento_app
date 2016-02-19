@@ -6,6 +6,10 @@
       "url": {
         "label": "Adresă URL magazin"
       },
+      "store_code": {
+        "label": "Cod magazin",
+        "help_text": "Adăugaţi codul magazinului implicit pe care îl utilizaţi, dacă aveţi opţiunea „Add Store Code to Urls” setată ca „Yes” în magazinul dumneavoastră Magento."
+      },
       "access_token": {
         "label": "Simbol de acces"
       },

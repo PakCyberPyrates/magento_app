@@ -6,6 +6,10 @@
       "url": {
         "label": "Butikk-URL"
       },
+      "store_code": {
+        "label": "Butikkode",
+        "help_text": "Legg til den standard butikkoden du bruker hvis du har valgt «Yes» for «Add Store Code to Urls» i Magento-butikken."
+      },
       "access_token": {
         "label": "Tilgangstoken"
       },

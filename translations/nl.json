@@ -6,6 +6,10 @@
       "url": {
         "label": "Webadres van winkel"
       },
+      "store_code": {
+        "label": "Winkelcode",
+        "help_text": "Voeg de standaardwinkelcode toe die u gebruikt, als 'Add Store Code to Urls' is ingesteld op 'Yes' in uw Magento-winkel."
+      },
       "access_token": {
         "label": "Toegangstoken"
       },
