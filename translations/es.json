@@ -6,6 +6,10 @@
       "url": {
         "label": "URL de la tienda"
       },
+      "store_code": {
+        "label": "Código de tienda",
+        "help_text": "Agregue el código de la tienda predeterminada que usa, si \"Add Store Code to Urls\" está configurado en \"Yes\" en su tienda de Magento."
+      },
       "access_token": {
         "label": "Token de acceso"
       },

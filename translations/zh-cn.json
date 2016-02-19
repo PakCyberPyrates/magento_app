@@ -6,6 +6,10 @@
       "url": {
         "label": "商店 URL"
       },
+      "store_code": {
+        "label": "商店代码",
+        "help_text": "如果您在 Magento 商店中将“Add Store Code to Urls”设置为“Yes”，则添加您使用的默认商店代码。"
+      },
       "access_token": {
         "label": "访问密钥"
       },
@@ -42,7 +46,7 @@
     "status": "状态",
     "currency": "币种",
     "items": "项目",
-    "created": "创建时间",
+    "created": "创建于",
     "updated": "更新时间",
     "store": "商店",
     "total": "共计",

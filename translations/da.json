@@ -6,6 +6,10 @@
       "url": {
         "label": "Forretnings-URL"
       },
+      "store_code": {
+        "label": "Forretningskode",
+        "help_text": "Tilføj den standardforretningskode, som du bruger, hvis du har 'Add Store Code to Urls' indstillet til 'Yes' i din Magento-forretning."
+      },
       "access_token": {
         "label": "Adgangstoken"
       },

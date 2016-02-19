@@ -1,0 +1,58 @@
+{
+  "app": {
+    "description": "הצגת פרטי לקוחות והזמנות מ-Magento.",
+    "name": "Magento",
+    "parameters": {
+      "url": {
+        "label": "כתובת ה-URL של החנות"
+      },
+      "store_code": {
+        "label": "קוד חנות",
+        "help_text": "הוסף את הקוד של חנות ברירת המחדל אם בחנות Magento שלך ההגדרה של 'Add Store Code to Urls' (הוסף קוד חנות לכתובות URL) היא 'Yes'."
+      },
+      "access_token": {
+        "label": "אסימון גישה"
+      },
+      "order_id_field_id": {
+        "label": "Order ID Field ID"
+      }
+    }
+  },
+  "profile": {
+    "customer_since": "לקוח מתאריך",
+    "addresses": "כתובות",
+    "billing": "חיוב",
+    "shipping": "משלוח",
+    "order": "הזמנה",
+    "guest": "(אורח)"
+  },
+  "global": {
+    "error": {
+      "title": "אירעה שגיאה",
+      "message": "נסה לבצע שוב את הפעולה הקודמת.",
+      "server": "הבקשה נכשלה. ודא שהגדרת התצורה נכונה ונסה שוב.",
+      "data": "לא ניתן לקרוא את נתוני הפנייה.",
+      "noprofile": "הלקוח לא קיים."
+    },
+    "loading": "ממתין לטעינת נתוני הפנייה...",
+    "requesting": "מבקש נתונים מ-Magento..."
+  },
+  "orders": {
+    "id": "ההזמנות האחרונות",
+    "status": "סטטוס"
+  },
+  "order": {
+    "details": "פרטי הזמנה עבור",
+    "status": "סטטוס",
+    "currency": "מטבע",
+    "items": "פריטים",
+    "created": "יצירה",
+    "updated": "עדכון",
+    "store": "חנות",
+    "total": "סה\"כ",
+    "error": {
+      "message": "ההזמנה לא קיימת",
+      "no_address": "אין כתובת."
+    }
+  }
+}

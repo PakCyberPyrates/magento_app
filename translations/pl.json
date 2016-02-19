@@ -6,6 +6,10 @@
       "url": {
         "label": "Adres URL sklepu"
       },
+      "store_code": {
+        "label": "Kod sklepu",
+        "help_text": "Jeśli opcja „Dodaj kod sklepu do adresów URL” w sklepie Magento ma wartość „Tak”, dodaj kod domyślnego sklepu, którego używasz."
+      },
       "access_token": {
         "label": "Token dostępu"
       },
