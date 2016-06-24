@@ -183,7 +183,7 @@
     _cleanupLineBreaks: function(toBeCleaned) {
       var cleaned = toBeCleaned;
       _.each(cleaned, function(value, key) {
-        cleaned[key] = _.escape(value).replace(/\n/g, '<br>');
+        cleaned[key] = _.escape(value).replace(/\n{1,}/g, '<br>');
       });
       return cleaned;
     },
