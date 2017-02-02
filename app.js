@@ -100,6 +100,7 @@
 
       // Got the profile data, populate interface
       this.profileData.created = this.localizeDate(this.profileData.created);
+      this.profileData.recentOrders = this._localizeStatuses(this.profileData.recentOrders);
       this.switchTo('profile', this.profileData);
 
       this._appendTicketOrder();
@@ -226,6 +227,14 @@
       }
 
       this.$('.order').html(orderTemplate);
+    },
+
+    _localizeStatuses: function(orders) {
+      orders.forEach(function(order, key) {
+        orders[key].status = this.I18n.t('order.statuses.' + order.status);
+      }, this);
+
+      return orders;
     }
 
   };
