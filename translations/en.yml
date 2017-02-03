@@ -178,7 +178,7 @@ parts:
   - translation:
       key: "txt.apps.magento.order.statuses.paypal_canceled_reversal"
       title: "Status specific for Paypal processed orders which has been reversed but subsequently reprocessed."
-      value: "Paypal cancel reversal"
+      value: "PayPal cancel reversal"
   - translation:
       key: "txt.apps.magento.order.statuses.pending_paypal"
       title: "Status specific for Paypal processed orders which has been set to pending on Paypal's System."
