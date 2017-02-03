@@ -17,12 +17,12 @@
       },
       "store_code": {
         "label": {
-          "title": "Label for the Magento Store Code",
+          "title": "Label for the Magento Store Code. See for example: https://support.google.com/business/answer/4542487?hl=en",
           "value": "Store Code"
         },
-        "helpText": {
+        "help_text": {
           "title": "Helper text for the Magento Store Code",
-          "value": "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store"
+          "value": "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store."
         }
       },
       "access_token": {
@@ -149,6 +149,56 @@
       "no_address": {
         "title": "No address is present for that user",
         "value": "No address."
+      }
+    },
+    "statuses": {
+      "pending": {
+        "title": "Pending orders are brand new orders that have not been processed.",
+        "value": "Pending"
+      },
+      "processing": {
+        "title": "Processing orders are orders that have been assigned an invoice.",
+        "value": "Processing"
+      },
+      "pending_payment": {
+        "title": "Pending Payment orders are brand new orders that have not been cleared by a payment gateway.",
+        "value": "Pending Payment"
+      },
+      "payment_review": {
+        "title": "Payment Review means that the order is currently under review on the payment gateway.",
+        "value": "Payment Review"
+      },
+      "suspected_fraud": {
+        "title": "Suspected Fraud means that the order has been flagged by Magento as possible fraud.",
+        "value": "Suspected Fraud"
+      },
+      "holded": {
+        "title": "On Hold means no further action can be done on the order until it is taken off hold.",
+        "value": "On Hold"
+      },
+      "complete": {
+        "title": "Orders marked as complete have been invoiced and have shipped.",
+        "value": "Complete"
+      },
+      "closed": {
+        "title": "Closed orders are orders that have had a credit memo assigned to it and the customer has been refunded.",
+        "value": "Closed"
+      },
+      "canceled": {
+        "title": "Cancelled orders are for orders that have been cancelled such as if the order has not been paid for.",
+        "value": "Canceled"
+      },
+      "paypal_reversed": {
+        "title": "Status specific for Paypal processed orders which has been reversed and refunded.",
+        "value": "Paypal Reversed"
+      },
+      "paypal_canceled_reversal": {
+        "title": "Status specific for Paypal processed orders which has been reversed but subsequently reprocessed.",
+        "value": "Paypal Cancel Reversal"
+      },
+      "pending_paypal": {
+        "title": "Status specific for Paypal processed orders which has been set to pending on Paypal's System.",
+        "value": "Pending Paypal"
       }
     }
   }

@@ -53,6 +53,20 @@
     "error": {
       "message": "Order does not exist",
       "no_address": "No address."
+    },
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "pending_payment": "Pending Payment",
+      "payment_review": "Payment Review",
+      "suspected_fraud": "Suspected Fraud",
+      "holded": "On Hold",
+      "complete": "Complete",
+      "closed": "Closed",
+      "canceled": "Canceled",
+      "paypal_reversed": "Paypal Reversed",
+      "paypal_canceled_reversal": "Paypal Canceled Reversal",
+      "pending_paypal": "Pending Paypal"
     }
   }
 }
