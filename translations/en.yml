@@ -146,19 +146,19 @@ parts:
   - translation:
       key: "txt.apps.magento.order.statuses.pending_payment"
       title: "Pending Payment orders are brand new orders that have not been cleared by a payment gateway."
-      value: "Pending Payment"
+      value: "Pending payment"
   - translation:
       key: "txt.apps.magento.order.statuses.payment_review"
       title: "Payment Review means that the order is currently under review on the payment gateway."
-      value: "Payment Review"
+      value: "Payment review"
   - translation:
       key: "txt.apps.magento.order.statuses.suspected_fraud"
       title: "Suspected Fraud means that the order has been flagged by Magento as possible fraud."
-      value: "Suspected Fraud"
+      value: "Suspected fraud"
   - translation:
       key: "txt.apps.magento.order.statuses.holded"
       title: "On Hold means no further action can be done on the order until it is taken off hold."
-      value: "On Hold"
+      value: "On hold"
   - translation:
       key: "txt.apps.magento.order.statuses.complete"
       title: "Orders marked as complete have been invoiced and have shipped."
@@ -178,7 +178,7 @@ parts:
   - translation:
       key: "txt.apps.magento.order.statuses.paypal_canceled_reversal"
       title: "Status specific for Paypal processed orders which has been reversed but subsequently reprocessed."
-      value: "Paypal Cancel Reversal"
+      value: "Paypal cancel reversal"
   - translation:
       key: "txt.apps.magento.order.statuses.pending_paypal"
       title: "Status specific for Paypal processed orders which has been set to pending on Paypal's System."
