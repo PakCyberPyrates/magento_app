@@ -232,7 +232,7 @@
     _localizeStatuses: function(orders) {
       orders.forEach(function(order, key) {
         var localizedStatus = this.I18n.t('order.statuses.' + order.status);
-        orders[key].status = localizedStatus.indexOf('Missing translation') == 0 ? order.status : localizedStatus;
+        orders[key].status = localizedStatus.indexOf('Missing translation') === 0 ? order.status : localizedStatus;
       }, this);
 
       return orders;
