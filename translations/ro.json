@@ -53,6 +53,20 @@
     "error": {
       "message": "Comanda nu există",
       "no_address": "Fără adresă."
+    },
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "pending_payment": "Pending payment",
+      "payment_review": "Payment review",
+      "suspected_fraud": "Suspected fraud",
+      "holded": "On hold",
+      "complete": "Complete",
+      "closed": "Closed",
+      "canceled": "Canceled",
+      "paypal_reversed": "PayPal Reversed",
+      "paypal_canceled_reversal": "PayPal cancel reversal",
+      "pending_paypal": "Pending PayPal"
     }
   }
 }

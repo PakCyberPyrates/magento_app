@@ -1,58 +1,72 @@
 {
   "app": {
-    "description": "Displays customer and order details from Magento.",
+    "description": "Показва данни за клиента и поръчките от Magento.",
     "name": "Magento",
     "parameters": {
       "url": {
-        "label": "Store URL"
+        "label": "URL на магазина"
       },
       "store_code": {
-        "label": "Store Code",
-        "help_text": "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store."
+        "label": "Код на магазин",
+        "help_text": "Добавя използвания от вас код на магазин по подразбиране, ако във вашия магазин на Magento „Добавяне на кода на магазина към URL адреса“ е зададено на „Да“."
       },
       "access_token": {
-        "label": "Access token"
+        "label": "Токен за достъп"
       },
       "order_id_field_id": {
-        "label": "Order ID Field ID"
+        "label": "Идентификатор на полето за идентификатор на поръчка"
       }
     }
   },
   "profile": {
-    "customer_since": "Customer Since",
-    "addresses": "Addresses",
-    "billing": "Billing",
-    "shipping": "Shipping",
-    "order": "Order",
-    "guest": "(Guest)"
+    "customer_since": "Клиент от",
+    "addresses": "Адреси",
+    "billing": "Фактуриране ",
+    "shipping": "Доставка",
+    "order": "Поръчка",
+    "guest": "(Гост)"
   },
   "global": {
     "error": {
-      "title": "An error occurred",
-      "message": "Please try the previous action again.",
-      "server": "The request failed. Please ensure your configuration is correct and try again.",
-      "data": "Ticket data could not be read.",
-      "noprofile": "Customer does not exist."
+      "title": "Възникна грешка",
+      "message": "Опитайте отново предишното действие.",
+      "server": "Заявката беше неуспешна. Уверете се, че конфигурацията ви е правилна и опитайте пак.",
+      "data": "Данните на казуса не бяха прочетени.",
+      "noprofile": "Клиентът не съществува."
     },
-    "loading": "Waiting for ticket data to load...",
-    "requesting": "Requesting data from Magento..."
+    "loading": "Изчакване да се заредят данните на казуса...",
+    "requesting": "Изпращане на заявка за получаване на данни от Magento..."
   },
   "orders": {
-    "id": "RECENT ORDERS",
-    "status": "STATUS"
+    "id": "ПОСЛЕДНИ ПОРЪЧКИ",
+    "status": "СТАТУС"
   },
   "order": {
-    "details": "Order details for",
-    "status": "Status",
-    "currency": "Currency",
-    "items": "Items",
-    "created": "Created",
-    "updated": "Updated",
-    "store": "Store",
-    "total": "Total",
+    "details": "Данни на поръчката за",
+    "status": "Статус",
+    "currency": "Валута",
+    "items": "Артикули",
+    "created": "Създадена",
+    "updated": "Актуализирана",
+    "store": "Магазин",
+    "total": "Общо",
     "error": {
-      "message": "Order does not exist",
-      "no_address": "No address."
+      "message": "Поръчката не съществува",
+      "no_address": "Няма адрес."
+    },
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "pending_payment": "Pending payment",
+      "payment_review": "Payment review",
+      "suspected_fraud": "Suspected fraud",
+      "holded": "On hold",
+      "complete": "Complete",
+      "closed": "Closed",
+      "canceled": "Canceled",
+      "paypal_reversed": "PayPal Reversed",
+      "paypal_canceled_reversal": "PayPal cancel reversal",
+      "pending_paypal": "Pending PayPal"
     }
   }
 }

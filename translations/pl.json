@@ -30,7 +30,7 @@
     "error": {
       "title": "Wystąpił błąd",
       "message": "Spróbuj ponowić poprzednią czynność.",
-      "server": "Żądanie nie powiodło się. Sprawdź, czy konfiguracja jest prawidłowa, i spróbuj ponownie.",
+      "server": "Żądanie nie powiodło się. Sprawdź, czy konfiguracja jest prawidłowa i spróbuj ponownie.",
       "data": "Nie można odczytać danych zgłoszenia.",
       "noprofile": "Klient nie istnieje."
     },
@@ -53,6 +53,20 @@
     "error": {
       "message": "Zamówienie nie istnieje",
       "no_address": "Brak adresu."
+    },
+    "statuses": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "pending_payment": "Pending payment",
+      "payment_review": "Payment review",
+      "suspected_fraud": "Suspected fraud",
+      "holded": "On hold",
+      "complete": "Complete",
+      "closed": "Closed",
+      "canceled": "Canceled",
+      "paypal_reversed": "PayPal Reversed",
+      "paypal_canceled_reversal": "PayPal cancel reversal",
+      "pending_paypal": "Pending PayPal"
     }
   }
 }
