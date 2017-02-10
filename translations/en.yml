@@ -169,7 +169,7 @@ parts:
       value: "Closed"
   - translation:
       key: "txt.apps.magento.order.statuses.canceled"
-      title: "Cancelled orders are for orders that have been cancelled such as if the order has not been paid for."
+      title: "Cancelled order. Order that has been cancelled such as if the order has not been paid for (singular)."
       value: "Canceled"
   - translation:
       key: "txt.apps.magento.order.statuses.paypal_reversed"
