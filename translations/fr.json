@@ -55,18 +55,18 @@
       "no_address": "Pas d’adresse."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "En attente",
+      "processing": "Traitement",
+      "pending_payment": "En attente de paiement",
+      "payment_review": "Vérification du paiement",
+      "suspected_fraud": "Suspicion de fraude",
+      "holded": "En pause",
+      "complete": "Terminée",
+      "closed": "Fermée",
+      "canceled": "Annulée",
+      "paypal_reversed": "Remboursement PayPal",
+      "paypal_canceled_reversal": "Annulation du remboursement PayPal",
+      "pending_paypal": "En attente PayPal"
     }
   }
 }

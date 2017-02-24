@@ -55,18 +55,18 @@
       "no_address": "Žádná adresa."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "Čekající",
+      "processing": "Zpracování",
+      "pending_payment": "Čekající na platbu",
+      "payment_review": "Kontrola platby",
+      "suspected_fraud": "Podezřelé z podvodu",
+      "holded": "Pozastaveno",
+      "complete": "Dokončeno",
+      "closed": "Uzavřeno",
+      "canceled": "Zrušeno",
+      "paypal_reversed": "PayPal stornováno",
+      "paypal_canceled_reversal": "Zrušení storna PayPal",
+      "pending_paypal": "Čekající na PayPal"
     }
   }
 }

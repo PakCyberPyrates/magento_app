@@ -55,18 +55,18 @@
       "no_address": "Без адреса."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "В ожидании",
+      "processing": "Обработка",
+      "pending_payment": "Платеж в ожидании",
+      "payment_review": "Проверка платежа",
+      "suspected_fraud": "Признаки мошенничества",
+      "holded": "На удержании",
+      "complete": "Завершен",
+      "closed": "Закрыт",
+      "canceled": "Отменен",
+      "paypal_reversed": "PayPal - возврат произведен",
+      "paypal_canceled_reversal": "PayPal - отмена возврата",
+      "pending_paypal": "PayPal - в ожидании"
     }
   }
 }

@@ -55,18 +55,18 @@
       "no_address": "Adres yok"
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "Beklemede",
+      "processing": "İşleniyor",
+      "pending_payment": "Ödeme bekleniyor",
+      "payment_review": "Ödeme incelemesi",
+      "suspected_fraud": "Sahtecilik şüphesi var",
+      "holded": "Askıda",
+      "complete": "Tamamlandı",
+      "closed": "Kapalı",
+      "canceled": "İptal edildi",
+      "paypal_reversed": "PayPal Ödemesi Geri Alındı",
+      "paypal_canceled_reversal": "PayPal iadesini geri alma",
+      "pending_paypal": "PayPal Bekleniyor"
     }
   }
 }
