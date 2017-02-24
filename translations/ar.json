@@ -55,18 +55,18 @@
       "no_address": "بدون عنوان"
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "قيد العمل",
+      "processing": "جارٍ المعالجة",
+      "pending_payment": "في انتظار التسديد",
+      "payment_review": "السداد قيد المراجعة",
+      "suspected_fraud": "هناك شك في وجود احتيال",
+      "holded": "معلق",
+      "complete": "مكتمل",
+      "closed": "مغلق",
+      "canceled": "تم الإلغاء",
+      "paypal_reversed": "رجوع عن معاملة PayPal",
+      "paypal_canceled_reversal": "رجوع PayPal عن إلغاء المعاملة",
+      "pending_paypal": "في انتظار التسديد"
     }
   }
 }

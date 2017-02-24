@@ -55,18 +55,18 @@
       "no_address": "Няма адрес."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "Чакаща",
+      "processing": "Обработва се",
+      "pending_payment": "Очаква плащане",
+      "payment_review": "Преглед на плащането",
+      "suspected_fraud": "Подозрение за измама",
+      "holded": "Спряна",
+      "complete": "Завършена",
+      "closed": "Закрита",
+      "canceled": "Отменена",
+      "paypal_reversed": "Анулирана в PayPal",
+      "paypal_canceled_reversal": "Отменено анулиране в PayPal",
+      "pending_paypal": "Чакаща в PayPal"
     }
   }
 }

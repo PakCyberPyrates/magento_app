@@ -55,18 +55,18 @@
       "no_address": "Geen adres."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "In afwachting",
+      "processing": "Verwerking",
+      "pending_payment": "In afwachting van betaling",
+      "payment_review": "Betaling in afwachting van verwerking",
+      "suspected_fraud": "Vermeende fraude",
+      "holded": "Geparkeerd",
+      "complete": "Voltooien",
+      "closed": "Gesloten",
+      "canceled": "Geannuleerd",
+      "paypal_reversed": "PayPal-terugbetaling",
+      "paypal_canceled_reversal": "PayPal-terugbetaling annuleren",
+      "pending_paypal": "In wachtrij bij PayPal"
     }
   }
 }

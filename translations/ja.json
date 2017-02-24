@@ -55,18 +55,18 @@
       "no_address": "アドレスがありません。"
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "保留中",
+      "processing": "処理中",
+      "pending_payment": "支払い保留中",
+      "payment_review": "支払いの審査中",
+      "suspected_fraud": "不正行為の疑い",
+      "holded": "待機中",
+      "complete": "完了",
+      "closed": "終了",
+      "canceled": "キャンセル",
+      "paypal_reversed": "PayPal送金キャンセル",
+      "paypal_canceled_reversal": "PayPal送金キャンセルの取消し",
+      "pending_paypal": "PayPal保留中"
     }
   }
 }

@@ -55,18 +55,18 @@
       "no_address": "没有地址。"
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "待处理",
+      "processing": "正在处理",
+      "pending_payment": "待处理支付",
+      "payment_review": "审核支付",
+      "suspected_fraud": "疑似欺诈",
+      "holded": "暂停",
+      "complete": "已完成",
+      "closed": "已关闭",
+      "canceled": "已取消",
+      "paypal_reversed": "PayPal 已撤单",
+      "paypal_canceled_reversal": "PayPal 取消撤单",
+      "pending_paypal": "待处理 PayPal"
     }
   }
 }

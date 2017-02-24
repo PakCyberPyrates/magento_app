@@ -55,18 +55,18 @@
       "no_address": "Ei osoitetta."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "Odottaa",
+      "processing": "Käsittely",
+      "pending_payment": "Odottaa maksua",
+      "payment_review": "Maksun tarkistus",
+      "suspected_fraud": "Petosta epäilty",
+      "holded": "Pidossa",
+      "complete": "Valmis",
+      "closed": "Suljettu",
+      "canceled": "Peruutettu",
+      "paypal_reversed": "PayPal peruutettu",
+      "paypal_canceled_reversal": "PayPal, peruuta peruutus",
+      "pending_paypal": "Odottaa PayPalia"
     }
   }
 }
