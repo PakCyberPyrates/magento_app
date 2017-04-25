@@ -101,6 +101,7 @@
       // Got the profile data, populate interface
       this.profileData.created = this.localizeDate(this.profileData.created);
       this.profileData.recentOrders.forEach(function(order, key) {
+        this.profileData.recentOrders[key].classname = order.status;
         this.profileData.recentOrders[key].status = this._localizeStatus(order.status);
       }, this);
       this.switchTo('profile', this.profileData);
@@ -114,6 +115,7 @@
         this.showError(this.I18n.t('global.error.title'), data.message || this.I18n.t('order.error.message'));
         return;
       }
+      data.classname = data.status;
       data.status = this._localizeStatus(data.status);
 
       this.switchTo('order', { order: data });
