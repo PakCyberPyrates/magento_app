@@ -100,7 +100,9 @@
 
       // Got the profile data, populate interface
       this.profileData.created = this.localizeDate(this.profileData.created);
-      this.profileData.recentOrders = this._localizeStatuses(this.profileData.recentOrders);
+      this.profileData.recentOrders.forEach(function(order, key) {
+        this.profileData.recentOrders[key].status = this._localizeStatus(order.status);
+      }, this);
       this.switchTo('profile', this.profileData);
 
       this._appendTicketOrder();
@@ -112,6 +114,7 @@
         this.showError(this.I18n.t('global.error.title'), data.message || this.I18n.t('order.error.message'));
         return;
       }
+      data.status = this._localizeStatus(data.status);
 
       this.switchTo('order', { order: data });
     },
@@ -229,13 +232,9 @@
       this.$('.order').html(orderTemplate);
     },
 
-    _localizeStatuses: function(orders) {
-      orders.forEach(function(order, key) {
-        var localizedStatus = this.I18n.t('order.statuses.' + order.status);
-        orders[key].status = localizedStatus.indexOf('Missing translation') === 0 ? order.status : localizedStatus;
-      }, this);
-
-      return orders;
+    _localizeStatus: function(status) {
+      var localizedStatus = this.I18n.t('order.statuses.' + status);
+      return localizedStatus.indexOf('Missing translation') === 0 ? status : localizedStatus;
     }
 
   };
