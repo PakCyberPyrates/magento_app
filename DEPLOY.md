@@ -7,7 +7,7 @@
 
 ## General Rules
 
-- 📢 Notify `mintegrations@zendesk.com` before any deployment or when something goes wrong.
+- 📢 Notify [mintegrations@zendesk.com](mailto:mintegrations@zendesk.com) before any deployment or when something goes wrong.
 - 💬 Notify [#mintegrations-team](https://zendesk.slack.com/messages/C169MJEF8) if you have questions, problems, RAs, permissions.
 - 🚒 Follow the [Recovery] (#Recovery) section to learn the rollback scenarios.
 - ⏰ Our team is based in Manila (UTC+08:00) (avoid off-hours deployments). With the exception of rollbacks, avoid deploying on a Friday or the day before a public holiday.
@@ -18,8 +18,11 @@
 
 
 > 🔒 __(SOC2 C.24) Standard Code Deployment:__ All standard source code changes are approved prior to deployment into production using the buddy/ peer approval function within the deployment tool.
+
 > 🔒 __(SOC2 C.25) Separate Environments:__ Code changes are developed and tested in separate environments prior to being deployed into the production environment.
+
 > 🔒 __(SOC2 C.26) Code Testing (QA):__ All code changes, including emergency changes, must successfully undergo automated continuous integration testing. Regular changes are tested prior to being deployed into the production environment. Due to their nature, emergency changes may undergo testing and documentation post-production deploy.
+
 > 🔒 __(SOC2 C.43) Non-standard Deploys:__ Non-standard code deploys are documented and authorized in JIRA tickets. Non-standard changes include: emergency deploys that are completed manually (when the deployment tool is down) and emergency deploys which use the deployment tool, but bypass the buddy/peer approval function.
 
 ## Restrictions
@@ -64,7 +67,7 @@ All deployments are executed using [Samson](https://samson.zende.sk/projects/mag
 
 ### Production
 
-> 🔒 __ ⛔️ Only deploy to this stage if staging is healthy and tests were made.
+> 🔒 __⛔️ Only deploy to this stage if staging is healthy and tests were made.
 
 1. Go to [Samson Production](https://samson.zende.sk/projects/magento_app/stages/production) and deploy the healthy tag.
 2. Wait until the deploy is done successfully.
