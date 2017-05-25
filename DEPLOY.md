@@ -64,7 +64,7 @@ All deployments are executed using [Samson](https://samson.zende.sk/projects/mag
 
 ### Production
 
-> 🔒 __⛔️ Only deploy to this stage if staging is healthy and tests were made.
+> 🔒 __ ⛔️ Only deploy to this stage if staging is healthy and tests were made.
 
 1. Go to [Samson Production](https://samson.zende.sk/projects/magento_app/stages/production) and deploy the healthy tag.
 2. Wait until the deploy is done successfully.
