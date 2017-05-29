@@ -77,6 +77,6 @@ All deployments are executed using [Samson](https://samson.zende.sk/projects/mag
 
 In cases of bad deploy:
 1. Revert PR or create another PR that removes the defective change.
-2. Get two :+1:'s before merge.
+2. Get a :+1: before merge.
 3. Create a new release tag.
 4. Deploy the new tag. Deploy Process for environment should still be followed.
