@@ -55,18 +55,18 @@
       "no_address": "주소가 없습니다."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "대기 중",
+      "processing": "처리 중",
+      "pending_payment": "대기 중인 결제",
+      "payment_review": "결제 검토",
+      "suspected_fraud": "의심되는 사기",
+      "holded": "대기",
+      "complete": "완료",
+      "closed": "종료",
+      "canceled": "취소됨",
+      "paypal_reversed": "PayPal 취소됨",
+      "paypal_canceled_reversal": "PayPal 지급취소 취소",
+      "pending_paypal": "보류 중인 PayPal"
     }
   }
 }

@@ -55,18 +55,18 @@
       "no_address": "Ingen adresse."
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "Venter",
+      "processing": "Behandler",
+      "pending_payment": "Betaling afventer",
+      "payment_review": "Betalingskontrol",
+      "suspected_fraud": "Mistænkt for bedrageri",
+      "holded": "I bero",
+      "complete": "Fuldført",
+      "closed": "Lukket",
+      "canceled": "Annulleret",
+      "paypal_reversed": "PayPal omstødt",
+      "paypal_canceled_reversal": "Omstødelse af PayPal-annullering",
+      "pending_paypal": "PayPal afventer"
     }
   }
 }

@@ -55,18 +55,18 @@
       "no_address": "Ingen adress"
     },
     "statuses": {
-      "pending": "Pending",
-      "processing": "Processing",
-      "pending_payment": "Pending payment",
-      "payment_review": "Payment review",
-      "suspected_fraud": "Suspected fraud",
-      "holded": "On hold",
-      "complete": "Complete",
-      "closed": "Closed",
-      "canceled": "Canceled",
-      "paypal_reversed": "PayPal Reversed",
-      "paypal_canceled_reversal": "PayPal cancel reversal",
-      "pending_paypal": "Pending PayPal"
+      "pending": "Väntar",
+      "processing": "Behandling pågår",
+      "pending_payment": "Betalning väntar",
+      "payment_review": "Betalningsgranskning",
+      "suspected_fraud": "Misstänkt bedrägeri",
+      "holded": "Vilande",
+      "complete": "Slutförda",
+      "closed": "Stängda",
+      "canceled": "Avbeställda",
+      "paypal_reversed": "PayPal återställt",
+      "paypal_canceled_reversal": "Återställning av PayPal-avbeställning",
+      "pending_paypal": "Väntar hos PayPal"
     }
   }
 }
