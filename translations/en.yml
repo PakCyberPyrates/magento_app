@@ -4,17 +4,83 @@ packages:
   - app_magento
 
 parts:
-
   # Magento App for Zendesk
   - translation:
-      key: "txt.apps.magento.app.description"
-      title: "Displays customer and order details from Magento"
+      key: "txt.apps.magento.app.name"
+      title: "Name for App: Magento"
+      value: "Magento"
+  - translation:
+      key: "txt.apps.magento.app.short_description"
+      title: "Description for App: Magento"
       value: "Displays customer and order details from Magento."
   - translation:
-      key: "txt.apps.magento.app.name"
-      title: "App name"
-      value: "Magento"
-      hidden: true
+      key: "txt.apps.magento.app.long_description"
+      title: "Long Description for App: Magento"
+      value: "The Zendesk Support for Magento app works to unite your business with a dynamic two-way integration between Zendesk Support ticket data and Magento e-commerce data.
+
+
+### Improve customer satisfaction with better conversations
+
+
+* Manage all your customer interactions in one place, whether you have one Magento site or several—driving efficiencies within your Support team.
+
+* Get more visibility on relevant customer data from Magento, such as billing, shipping, and order info on Zendesk Support ticket pages and user profiles.
+
+* Add Zendesk Support communication channels to any Magento-powered site so your customers can get in touch with your Support team wherever they are.
+
+
+### Sync your teams for faster resolutions and higher revenues
+
+
+* Easily collaborate to resolve customer issues faster with access to support ticket information in a custom Zendesk Support panel within Magento.
+
+* Stay up-to-date on the account and the customer with a single view of support information next to critical sales statistics, customer profiles, and sales orders.
+
+* Create and update Zendesk Support tickets directly in Magento for greater Support team efficiencies.
+
+
+For complete setup instructions, see the [setup guide](https://support.zendesk.com/entries/22329981-magento-integration-installing-configuring-the-magento-extension).
+
+
+By enabling this app, You agree to the [Built by Zendesk Terms of Use](https://www.zendesk.com/company/built-by-zendesk-agmt/)."
+  - translation:
+      key: "txt.apps.magento.app.installation_instructions"
+      title: "Installation Instructions for App: Magento"
+      value: "### Availability and Supported Versions
+
+
+Zendesk Support for Magento is available at no cost to all Zendesk Support customers. Furthermore, this integration is supported on Magento Community 1.7+ and Enterprise 1.9+. To get the most value from this integration, we recommend using the new version of Zendesk Support.
+
+
+### Prerequisites
+
+
+* Magento Community v1.7+ or Magento Enterprise v1.9+ with full administrator rights
+
+* PHP 5.2
+
+
+### How to install
+
+
+The *Zendesk Support for Magento* setup has two parts.  First, sign in to your Zendesk Support account, then follow the [instructions here](https://support.zendesk.com/entries/22329981-magento-integration-installing-configuring-the-magento-extension) to download the extension and learn how to configure the extension in Magento.  When this is complete, you are ready to add the *Magento App for Zendesk Support* to your account.
+
+
+In Zendesk Support, click the Admin icon in the sidebar. Select Apps > Marketplace, then find the Magento app and click the tile. On the Magento app page, click Install app in the upper-right corner. Configure the app settings, then click Install:
+
+
+* **Title**: Name for the application.
+
+* **Store URL**: The URL to your Magneto store (for example, http://www.zendesk-store.com).
+
+* **Store Code**: Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store.
+
+* **Access token**: Your API access token from the Zendesk Support extension for Magento.
+
+* **Order ID Field ID**: The Zendesk Support custom field ID you are using to store the associated Magento order number.
+
+
+For complete instructions, see the [setup guide](https://support.zendesk.com/entries/22347936-magento-integration-installing-the-magento-app-for-zendesk)."
   - translation:
       key: "txt.apps.magento.app.parameters.url.label"
       title: "Label for the Magento Store URL"
