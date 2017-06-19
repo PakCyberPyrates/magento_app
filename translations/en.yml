@@ -9,13 +9,14 @@ parts:
       key: "txt.apps.magento.app.name"
       title: "Name for App: Magento"
       value: "Magento"
+      hidden: true
   - translation:
       key: "txt.apps.magento.app.short_description"
-      title: "Description for App: Magento"
+      title: "Description for App: Magento. Do not translate \"Magento.\""
       value: "Displays customer and order details from Magento."
   - translation:
       key: "txt.apps.magento.app.long_description"
-      title: "Long Description for App: Magento"
+      title: "Long Description for App: Magento. Do not translate \"Magento.\""
       value: "The Zendesk Support for Magento app works to unite your business with a dynamic two-way integration between Zendesk Support ticket data and Magento e-commerce data.
 
 
@@ -39,13 +40,13 @@ parts:
 * Create and update Zendesk Support tickets directly in Magento for greater Support team efficiencies.
 
 
-For complete setup instructions, see the [setup guide](https://support.zendesk.com/entries/22329981-magento-integration-installing-configuring-the-magento-extension).
+For complete setup instructions, see the [setup guide](https://support.zendesk.com/hc/en-us/articles/203660046).
 
 
 By enabling this app, You agree to the [Built by Zendesk Terms of Use](https://www.zendesk.com/company/built-by-zendesk-agmt/)."
   - translation:
       key: "txt.apps.magento.app.installation_instructions"
-      title: "Installation Instructions for App: Magento"
+      title: "Installation Instructions for App: Magento. Do not translate \"Magento.\""
       value: "### Availability and Supported Versions
 
 
@@ -63,7 +64,7 @@ Zendesk Support for Magento is available at no cost to all Zendesk Support custo
 ### How to install
 
 
-The *Zendesk Support for Magento* setup has two parts.  First, sign in to your Zendesk Support account, then follow the [instructions here](https://support.zendesk.com/entries/22329981-magento-integration-installing-configuring-the-magento-extension) to download the extension and learn how to configure the extension in Magento.  When this is complete, you are ready to add the *Magento App for Zendesk Support* to your account.
+The *Zendesk Support for Magento* setup has two parts.  First, sign in to your Zendesk Support account, then follow the [instructions here](https://support.zendesk.com/hc/en-us/articles/203660046) to download the extension and learn how to configure the extension in Magento.  When this is complete, you are ready to add the *Magento App for Zendesk Support* to your account.
 
 
 In Zendesk Support, click the Admin icon in the sidebar. Select Apps > Marketplace, then find the Magento app and click the tile. On the Magento app page, click Install app in the upper-right corner. Configure the app settings, then click Install:
@@ -80,7 +81,7 @@ In Zendesk Support, click the Admin icon in the sidebar. Select Apps > Marketpla
 * **Order ID Field ID**: The Zendesk Support custom field ID you are using to store the associated Magento order number.
 
 
-For complete instructions, see the [setup guide](https://support.zendesk.com/entries/22347936-magento-integration-installing-the-magento-app-for-zendesk)."
+For complete instructions, see the [setup guide](https://support.zendesk.com/hc/en-us/articles/203660066)."
   - translation:
       key: "txt.apps.magento.app.parameters.url.label"
       title: "Label for the Magento Store URL"
@@ -91,7 +92,7 @@ For complete instructions, see the [setup guide](https://support.zendesk.com/ent
       value: "Store Code"
   - translation:
       key: "txt.apps.magento.app.parameters.store_code.help_text"
-      title: "Helper text for the Magento Store Code"
+      title: "Helper text for the Magento Store Code. Do not translate \"Magento.\""
       value: "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store."
   - translation:
       key: "txt.apps.magento.app.parameters.access_token.label"
@@ -151,7 +152,7 @@ For complete instructions, see the [setup guide](https://support.zendesk.com/ent
       value: "Waiting for ticket data to load..."
   - translation:
       key: "txt.apps.magento.global.requesting"
-      title: "Data is being requested from Magento"
+      title: "Data is being requested from Magento. Do not translate \"Magento.\""
       value: "Requesting data from Magento..."
   - translation:
       key: "txt.apps.magento.orders.id"
