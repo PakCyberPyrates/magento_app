@@ -1,12 +1,20 @@
 {
   "app": {
-    "description": {
-      "title": "Displays customer and order details from Magento",
+    "name": {
+      "title": "Name for App: Magento",
+      "value": "Magento"
+    },
+    "short_description": {
+      "title": "Description for App: Magento. Do not translate \"Magento.\"",
       "value": "Displays customer and order details from Magento."
     },
-    "name": {
-      "title": "App name",
-      "value": "Magento"
+    "long_description": {
+      "title": "Long Description for App: Magento. Do not translate \"Magento.\"",
+      "value": "The Zendesk Support for Magento app works to unite your business with a dynamic two-way integration between Zendesk Support ticket data and Magento e-commerce data.\n\n### Improve customer satisfaction with better conversations\n\n* Manage all your customer interactions in one place, whether you have one Magento site or several driving efficiencies within your Support team.\n* Get more visibility on relevant customer data from Magento, such as billing, shipping, and order info on Zendesk Support ticket pages and user profiles.\n* Add Zendesk Support communication channels to any Magento-powered site so your customers can get in touch with your Support team wherever they are.\n\n### Sync your teams for faster resolutions and higher revenues\n\n* Easily collaborate to resolve customer issues faster with access to support ticket information in a custom Zendesk Support panel within Magento.\n* Stay up-to-date on the account and the customer with a single view of support information next to critical sales statistics, customer profiles, and sales orders.\n* Create and update Zendesk Support tickets directly in Magento for greater Support team efficiencies.\n\nFor complete setup instructions, see the [setup guide](https://support.zendesk.com/hc/en-us/articles/203660046).\n\nBy enabling this app, You agree to the [Built by Zendesk Terms of Use](https://www.zendesk.com/company/built-by-zendesk-agmt/)."
+    },
+    "installation_instructions": {
+      "title": "Installation Instructions for App: Magento. Do not translate \"Magento.\"",
+      "value": "### Availability and Supported Versions\n\nZendesk Support for Magento is available at no cost to all Zendesk Support customers. Furthermore, this integration is supported on Magento Community 1.7+ and Enterprise 1.9+.\n\n### Prerequisites\n\n* Magento Community v1.7+ or Magento Enterprise v1.9+ with full administrator rights\n* PHP 5.2\n\n### How to install\n\nThe *Zendesk Support for Magento* setup has two parts.  First, sign in to your Zendesk Support account, then follow the [instructions here](https://support.zendesk.com/hc/en-us/articles/203660046) to download the extension and learn how to configure the extension in Magento.  When this is complete, you are ready to add the *Magento App for Zendesk Support* to your account.\n\nIn Zendesk Support, click the Admin icon in the sidebar. Select Apps > Marketplace, then find the Magento app and click the tile. On the Magento app page, click Install app in the upper-right corner. Configure the app settings, then click Install:\n\n* **Title**: Name for the application.\n* **Store URL**: The URL to your Magneto store (for example, http://www.zendesk-store.com).\n* **Store Code**: Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store.\n* **Access token**: Your API access token from the Zendesk Support extension for Magento.\n* **Order ID Field ID**: The Zendesk Support custom field ID you are using to store the associated Magento order number.\n\nFor complete instructions, see the [setup guide](https://support.zendesk.com/hc/en-us/articles/203660066)."
     },
     "parameters": {
       "url": {
@@ -21,7 +29,7 @@
           "value": "Store Code"
         },
         "help_text": {
-          "title": "Helper text for the Magento Store Code",
+          "title": "Helper text for the Magento Store Code. Do not translate \"Magento.\"",
           "value": "Add the default store code you use, if you have 'Add Store Code to Urls' set to 'Yes' on your Magento store."
         }
       },
@@ -94,7 +102,7 @@
       "value": "Waiting for ticket data to load..."
     },
     "requesting": {
-      "title": "Data is being requested from Magento",
+      "title": "Data is being requested from Magento. Do not translate \"Magento.\"",
       "value": "Requesting data from Magento..."
     }
   },
@@ -162,19 +170,19 @@
       },
       "pending_payment": {
         "title": "Pending Payment orders are brand new orders that have not been cleared by a payment gateway.",
-        "value": "Pending Payment"
+        "value": "Pending payment"
       },
       "payment_review": {
         "title": "Payment Review means that the order is currently under review on the payment gateway.",
-        "value": "Payment Review"
+        "value": "Payment review"
       },
       "suspected_fraud": {
         "title": "Suspected Fraud means that the order has been flagged by Magento as possible fraud.",
-        "value": "Suspected Fraud"
+        "value": "Suspected fraud"
       },
       "holded": {
         "title": "On Hold means no further action can be done on the order until it is taken off hold.",
-        "value": "On Hold"
+        "value": "On hold"
       },
       "complete": {
         "title": "Orders marked as complete have been invoiced and have shipped.",
@@ -185,20 +193,20 @@
         "value": "Closed"
       },
       "canceled": {
-        "title": "Cancelled orders are for orders that have been cancelled such as if the order has not been paid for.",
+        "title": "Cancelled order. Order that has been cancelled such as if the order has not been paid for (singular).",
         "value": "Canceled"
       },
       "paypal_reversed": {
         "title": "Status specific for Paypal processed orders which has been reversed and refunded.",
-        "value": "Paypal Reversed"
+        "value": "PayPal Reversed"
       },
       "paypal_canceled_reversal": {
         "title": "Status specific for Paypal processed orders which has been reversed but subsequently reprocessed.",
-        "value": "Paypal Cancel Reversal"
+        "value": "PayPal cancel reversal"
       },
       "pending_paypal": {
         "title": "Status specific for Paypal processed orders which has been set to pending on Paypal's System.",
-        "value": "Pending Paypal"
+        "value": "Pending PayPal"
       }
     }
   }
