@@ -100,7 +100,8 @@ For complete instructions, see the [setup guide](https://support.zendesk.com/hc/
       value: "Access token"
   - translation:
       key: "txt.apps.magento.app.parameters.order_id_field_id.label"
-      title: "Label for the Zendesk Order ID Field ID"
+      title: "The Zendesk Support custom field ID you are using to store the associated Magento order ID."
+      screenshot: "https://zendesk.box.com/s/re4wgja3jx6xjmxiqju51n8efj5dkmbu"
       value: "Order ID Field ID"
   - translation:
       key: "txt.apps.magento.profile.customer_since"
