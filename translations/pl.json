@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Wyświetla szczegóły klienta i zamówienia z Magento.",
     "name": "Magento",
+    "short_description": "Wyświetla szczegóły klienta i zamówienia z Magento.",
+    "long_description": "Aplikacja Zendesk Support dla Magento zapewnia firmie jednolite informacje dzięki dynamicznej, dwukierunkowej integracji danych zgłoszeń Zendesk Support i danych handlu internetowego Magento.\n\n### Większe zadowolenie klientów dzięki owocnym rozmowom\n\n* Niezależnie od tego, czy prowadzisz jedną witrynę Magento, czy więcej, możesz zarządzać wszystkimi interakcjami z klientami z jednego miejsca. Usprawnia to pracę działu wsparcia.\n* Aplikacja zapewnia lepszy wgląd w odpowiednie dane o klientach z Magento, takie jak adres do rozliczeń, adres wysyłki i informacje o zamówieniach, na stronach zgłoszeń Zendesk Support i w profilach użytkowników.\n* Kanały komunikacji Zendesk Support można dodać do dowolnej witryny na platformie Magento, co umożliwi klientom kontakt z działem wsparcia z każdego miejsca.\n\n### Synchronizacja zespołów przyspieszająca rozwiązanie problemów i zwiększająca przychody\n\n* W niestandardowym panelu Zendesk w Magento można szybciej uzyskiwać dostęp do informacji o zgłoszeniach z Zendesk Support. Ułatwia to współpracę nad załatwianiem spraw klientów.\n* Jeden widok informacji dotyczących wsparcia obok najważniejszych statystyk sprzedaży, profili klientów i zleceń sprzedaży zapewnia aktualne informacje o klientach.\n* Zgłoszenia Zendesk Support można tworzyć i aktualizować bezpośrednio w Magento, aby usprawnić pracę zespołu wsparcia.\n\nPełne informacje zawiera [instrukcja konfiguracji]((https://support.zendesk.com/hc/en-us/articles/203660046).\n\nWłączając tę aplikację, wyrażasz zgodę na [Warunki użytkowania dotyczące aplikacji opracowanej przez Zendesk](https://www.zendesk.com/company/built-by-zendesk-agmt/).",
+    "installation_instructions": "### Dostępność i obsługiwane wersje\n\nAplikacja Zendesk dla Magento jest dostępna bezpłatnie dla wszystkich klientów Zendesk korzystających z Zendesk Support. Co więcej, integracja jest obsługiwana w wersjach Magento Community 1.7+ i Enterprise 1.9+.\n\n### Wymagania wstępne\n\n* Magento Community v1.7+ lub Magento Enterprise v1.9+ z pełnymi prawami administratora\n* PHP 5.2\n\n### Instrukcja instalacji\n\nKonfiguracja *Zendesk dla Magento* obejmuje dwa etapy.  Najpierw zaloguj się na koncie Zendesk, pobierz rozszerzenie zgodnie z [tą instrukcją](https://support.zendesk.com/hc/en-us/articles/203660046) i dowiedz się, jak je skonfigurować w Magento.  Po ukończeniu tych czynności można będzie dodać *aplikację Magento dla Zendesk Support* do swojego konta.\n\nW Zendesk Support kliknij ikonę Administracja w menu bocznym. Wybierz pozycje Aplikacje > Marketplace, znajdź aplikację Magento i kliknij kafelek. Na stronie aplikacji Magento kliknij przycisk Zainstaluj aplikację widoczny w prawym górnym rogu. Skonfiguruj ustawienia aplikacji, a następnie kliknij przycisk Zainstaluj:\n\n* **Tytuł** — nazwa aplikacji.\n* **Adres URL sklepu** — adres URL sklepu Magento (np. http://www.zendesk-store.com).\n* **Kod sklepu** — jeśli opcja „Dodaj kod sklepu do adresów URL” w sklepie Magento ma wartość „Tak”, dodaj kod domyślnego sklepu, którego używasz.\n* **Token dostępu** — token dostępu przy użyciu interfejsu API z rozszerzenia Zendesk Support dla Magento.\n* **Identyfikator pola identyfikatora zamówienia** — identyfikator niestandardowego pola Zendesk przechowującego powiązany numer zamówienia z Magento.\n\nPełne informacje zawiera [instrukcja konfiguracji](https://support.zendesk.com/hc/en-us/articles/203660066).",
     "parameters": {
       "url": {
         "label": "Adres URL sklepu"
@@ -14,7 +16,7 @@
         "label": "Token dostępu"
       },
       "order_id_field_id": {
-        "label": "Identyfikator pola numeru zamówienia"
+        "label": "Identyfikator pola identyfikatora zamówienia"
       }
     }
   },

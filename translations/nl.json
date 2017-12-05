@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Geeft info over klant en order van Magento weer.",
     "name": "Magento",
+    "short_description": "Geeft info over klant en order van Magento weer.",
+    "long_description": "De app Zendesk Support for Magento draagt bij aan het verenigen van uw bedrijf door middel van integratie in twee richtingen tussen Zendesk Support-ticketgegevens en e-commercegegevens van Magento.\n\n### Verbeter de klanttevredenheid met betere gesprekken\n\n* Beheer al uw klantinteracties op één plaats, of u nu één of meerdere Magento-sites hebt, zodat uw supportteam efficiënter werkt.\n* Krijg beter inzicht in relevante klantgegevens uit Magento, zoals informatie over facturering, verzendingen en orderinfo, op Zendesk Support-ticketpagina’s en in gebruikersprofielen.\n* Bied uw klanten Zendesk Support-communicatiekanalen aan op door Magento aangestuurde sites zodat zij ongeacht hun locatie contact kunnen opnemen met uw supportteam.\n\n### Synchroniseer uw teams zodat oplossingen sneller worden gerealiseerd en de omzet wordt verhoogd\n\n* Werk eenvoudig samen aan het snel oplossen van problemen van klanten dankzij toegang tot informatie in supporttickets in een aangepast Zendesk Support-paneel in Magento.\n* Blijf helemaal up-to-date over de account en klant. Bekijk alle belangrijke gegevens in één overzicht met cruciale verkoopcijfers, klantprofielen en verkooporders.\n* Maak Zendesk-tickets en werk deze rechtstreeks in Magento bij zodat uw supportteam nóg efficiënter werkt.\n\nZie de [gids met instellingen](https://support.zendesk.com/hc/en-us/articles/203660046) voor volledige instructies.\n\nDoor deze app in te schakelen, gaat u akkoord met de [Gebruiksvoorwaarden van Gemaakt door Zendesk](https://www.zendesk.com/company/built-by-zendesk-agmt/).",
+    "installation_instructions": "### Beschikbaarheid en ondersteunde versies\n\nZendesk Support for Magento is gratis beschikbaar voor alle Zendesk Support-klanten. Bovendien wordt deze integratie ondersteund op Magento Community 1.7+ en Enterprise 1.9+.\n\n### Voorwaarden\n\n* Magento Community v1.7+ of Magento Enterprise v1.9+ met volledige Administrator-bevoegdheden\n* PHP 5.2\n\n### Installatie\n\nDe installatie van *Zendesk Support for Magento* bestaat uit twee delen.  Meld u om te beginnen aan bij uw Zendesk Support-account en volg [deze instructies](https://support.zendesk.com/hc/en-us/articles/203660046) om de uitbreiding te downloaden en te zien hoe u deze uitbreiding in Magento installeert.  Nadat dit is voltooid, kunt u de *Magento-app for Zendesk Support* aan uw account toevoegen.\n\nKlik in Zendesk Support op het pictogram Admin in de zijbalk. Selecteer Apps > Marketplace, zoek de app Magento en klik op de tegel. Klik op de pagina van de app Magento op App installeren rechtsboven. Configureer de app-instellingen en klik op Installeren:\n\n* **Titel**: naam van de toepassing.\n* **Webadres van winkel**: het webadres van uw Magento-winkel (bijvoorbeeld http://www.zendesk-store.com).\n* **Winkelcode**: voeg de standaardwinkelcode toe die u gebruikt, als 'Add Store Code to Urls' is ingesteld op 'Yes' in uw Magento-winkel.\n* **Toegangstoken**: Uw API-toegangstoken van de Zendesk Support-uitbreiding voor Magento.\n* **Order-id Veld-id**: de aangepaste veld-id van Zendesk Support die u gebruikt om het bijbehorende Magento-ordernummer op te slaanr.\n\nRaadpleeg voor volledige instructies de [configuratiegids](https://support.zendesk.com/hc/en-us/articles/203660066).",
     "parameters": {
       "url": {
         "label": "Webadres van winkel"
@@ -14,7 +16,7 @@
         "label": "Toegangstoken"
       },
       "order_id_field_id": {
-        "label": "Id van ordernummerveld"
+        "label": "Order-Id Veld-Id"
       }
     }
   },
@@ -66,7 +68,7 @@
       "canceled": "Geannuleerd",
       "paypal_reversed": "PayPal-terugbetaling",
       "paypal_canceled_reversal": "PayPal-terugbetaling annuleren",
-      "pending_paypal": "In wachtrij bij PayPal"
+      "pending_paypal": "In afwachting bij PayPal"
     }
   }
 }

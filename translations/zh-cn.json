@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "显示来自 Magento 的客户和订单详情。",
     "name": "Magento",
+    "short_description": "显示来自 Magento 的客户和订单详情。",
+    "long_description": "Zendesk Support for Magento 应用通过 Zendesk Support 工单数据和 Magento 电子商务数据的动态双向整合，将您的业务统一起来。\n\n### 以更好的对话来提高客户满意度\n\n* 在同一个地方管理您所有的客户互动，不管您有一个或是多个 Magento 网站，在您的支持团队内提高效率。\n* 在 Zendesk Support 工单页面和用户个人资料中，可以看到更多 Magento 的相关客户数据，例如帐单、送货，以及订单信息。\n* 将 Zendesk Support 的沟通渠道添加到任意由 Magento 支持的网站，使您的客户可随时随地与您的支持团队保持联系。\n\n### 使您的团队保持同步，更快地解决问题，获得更高的收益\n\n* 合作更方便 —— 在 Magento 内的自定义 Zendesk Support 面板中，可访问支持工单信息，更快地解决客户问题。\n* 在关键销售统计、客户个人资料和销售订单旁边有一个支持信息视图，可了解帐户和客户的最新状态。\n* 在 Magento 中直接创建和更新 Zendesk Support 工单，提高支持团队的效率。\n\n如需完整的设置说明，请查看[设置指南](https://support.zendesk.com/hc/en-us/articles/203660046)。\n\n启用此应用即表示您同意 [Zendesk 自建使用条款](https://www.zendesk.com/company/built-by-zendesk-agmt/)。",
+    "installation_instructions": "### 可用性和支持的版本\n\nZendesk Support for Magento 供所有的 Zendesk Support 客户免费使用。此外，该整合也受 Magento Community 1.7+ 和 Enterprise 1.9+ 的支持。\n\n### 系统必备\n\n* Magento Community v1.7+ 或 Magento Enterprise v1.9+，具备完全管理员权限\n* PHP 5.2\n\n### 如何安装\n\n*Zendesk Support for Magento* 设置包括两部分。 首先，登录您的 Zendesk Support 帐户，然后按照[这里的说明](https://support.zendesk.com/hc/en-us/articles/203660046)下载该功能扩展，并了解如何在 Magento 中配置该功能扩展。 完成后，您即可添加 *Magento App for Zendesk Support* 到您的帐户。\n\n在 Zendesk Support 中，单击侧栏中的管理员图标。选择应用 > 市场，然后查找 Magento 应用并单击该磁贴。在 Magento 应用页面上，单击右上角的“安装应用”。配置应用设置，然后单击“安装”：\n\n* **标题**：应用程序的名称。\n* **商店 URL**：您 Magento 商店的 URL（例如，http://www.zendesk-store.com）。\n* **商店代码**：如果您在 Magento 商店中将“Add Store Code to Urls”设置为“Yes”，则添加您使用的默认商店代码。\n* **访问密钥**：您在 Magento 的 Zendesk Support 功能扩展的 API 访问密钥。\n* **订单 ID 字段 ID**：您用于存储关联的 Magento 订单号所使用的 Zendesk Support 自定义字段 ID。\n\n如需完整的说明，请查看[设置指南](https://support.zendesk.com/hc/en-us/articles/203660066)。",
     "parameters": {
       "url": {
         "label": "商店 URL"

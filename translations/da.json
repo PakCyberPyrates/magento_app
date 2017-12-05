@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Viser kunde- og ordredetaljer fra Magento.",
     "name": "Magento",
+    "short_description": "Viser kunde- og ordredetaljer fra Magento.",
+    "long_description": "Appen Zendesk Support for Magento samler din butik med en dynamisk tovejsintegration mellem Zendesk Support-ticketdata og Magento e-handelsdata.\n\n### Forbedr kundetilfredshed med bedre samtaler\n\n* Administrer alle dine kundeinteraktioner på ét sted, uanset om du har én Magento-site eller flere eller adskillige effektiviteter på dit supportteam.\n* Få et bedre overblik over relevante kundedata fra Magento, som f.eks. fakturering, forsendelse og ordreoplysninger på Zendesk Support-ticketsider og -brugerprofiler.\n* Føj Zendesk Support-kommunikationskanaler til en Magento-drevet site, så dine kunder kan kontakte dit supportteam, uanset hvor de er.\n\n### Synkroniser dine teams for at få hurtigere løsninger og større indtægt\n\n* Gør det let at samarbejde om at løse kundeproblemer hurtigere med adgang til oplysninger i supportticket på et brugerdefineret Zendesk Support-panel i Magento.\n* Hold dig ajourført med kontoen og kunden med et enkelt view med supportoplysninger ved siden af kritisk salgsstatistik, kundeprofiler og salgsordrer.\n* Opret og opdater Zendesk Support-tickets direkte i Magento for at få bedre effektive supportteams.\n\nDer findes fuldstændige installationsinstruktioner i [installationsguide](https://support.zendesk.com/hc/en-us/articles/203660046n).\n\nNår du aktiverer denne app accepterer du [Brugsbetingelser for Bygget af Zendesk](https://www.zendesk.com/company/built-by-zendesk-agmt/).",
+    "installation_instructions": "### Tilgængelighed og understøttede versioner\n\nZendesk Support for Magento er gratis for alle Zendesk Support-kunder. Denne integration understøttes desuden på Magento Community 1.7+ og Enterprise 1.9+.\n\n### Forudsætninger\n\n* Magento Community v1.7+ eller Magento Enterprise v1.9+ med komplette administratorrettigheder\n* PHP 5.2\n\n### Installation\n\nKonfigurationen af *Zendesk Support for Magento* består af to dele.  Log først ind på din Zendesk Support-konto, følg derefter [instruktionerne her](https://support.zendesk.com/hc/en-us/articles/203660046) for at downloade udvidelsen og lære, hvordan den skal konfigureres i Magento.  Når dette er fuldført, er du klar til at føje *Magento App for Zendesk Support* til din konto.\n\nKlik på Admin-ikonet på sidepanelet i Zendesk Support. Vælg Apps > Markedsplads, find derefter appen Magento og klik på ruden. Klik på Installer app i det øverste højre hjørne på siden for appen Magento. Konfigurer app-indstillingerne, og klik derefter på Installer:\n\n* **Titel**: Applikationens navn.\n* **URL-adresse til butik**: URL-adresse til din Magento-butik (f.eks., http://www.zendesk-store.com).\n* **Butikskode**: Tilføj den standardbutikskode, som du bruger, hvis du har 'Add Store Code to Urls' indstillet til 'Yes' i din Magento-butik.\n* **Adgangstoken**: Din API-adgangstoken fra Zendesk Support-udvidelsen for Magento.\n* **Id til feltet Ordre-id**: Det brugerdefinerede Zendesk Support-felt-id, som du bruger til at gemme det tilknyttede Magento-ordrenummer.\n\nFuldstændige instruktioner kan findes i [installationsguide](https://support.zendesk.com/hc/en-us/articles/203660066).",
     "parameters": {
       "url": {
         "label": "Forretnings-URL"
@@ -14,7 +16,7 @@
         "label": "Adgangstoken"
       },
       "order_id_field_id": {
-        "label": "Id til feltet Ordrenummer"
+        "label": "Id til feltet Ordre-id"
       }
     }
   },
