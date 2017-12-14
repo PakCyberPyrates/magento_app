@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Visar kund- och beställningsuppgifter från Magento.",
     "name": "Magento",
+    "short_description": "Visar kund- och beställningsuppgifter från Magento.",
+    "long_description": "Appen Zendesk Support för Magento förenar din verksamhet med dynamisk dubbelriktad integrering mellan Zendesk Support-ärendeuppgifter och e-handelsdata i Magento.\n\n### Förbättra kundnöjdheten med bättre samtal\n\n* Hantera alla kundinteraktioner på en och samma plats, oavsett om du har en eller flera Magento-platser och öka därmed effektiviteten i ditt supportteam.\n* Dra nytta av bättre insyn i relevanta kunduppgifter från Magento, såsom fakturering, leveranser och beställningsinformation på Zendesk Supports ärendesidor och användarprofiler.\n* Lägg till Zendesk Support-kommunikationskanaler på en valfri Magento-driven plats så att dina kunder kan kontakta ditt supportteam oavsett var de befinner sig.\n\n### Synkronisera dina team för snabbare lösningar och större intäkter.\n\n* Samarbeta enkelt för att lösa kunders problem snabbare, med åtkomst till information om supportärenden på en egen Zendesk Support-panel i Magento.\n* Håll dig informerad om kontot och kunden med en enda vy över supportinformation bredvid viktig försäljningsstatistik, kundprofiler och beställningar.\n\n* Skapa och uppdatera Zendesk Support-ärenden direkt i Magento för att öka supportteamets effektivitet. \n\nFullständiga installationsanvisningar finns i [installationsguiden](https://support.zendesk.com/hc/en-us/articles/203660046).\n\nNär du använder denna app innebär det att du samtycker till [användningsvillkoren för Built by Zendesk](https://www.zendesk.com/company/built-by-zendesk-agmt/).",
+    "installation_instructions": "### Tillgänglighet och kompatibla versioner\n\nZendesk Support för Magento är tillgängligt kostnadsfritt för alla Zendesk Support-kunder. Denna integrering stöds i Magento Community 1.7+ och Enterprise 1.9+.\n\n### Systemkrav\n\n* Magento Community v1.7+ eller Magento Enterprise v1.9+ med fullständig administratörsbehörighet\n* PHP 5.2\n\n### Så här installerar du\n\nInstallationen av *Zendesk Support för Magento* består av två delar.  Börja med att logga in till ditt Zendesk Support-konto och följ sedan [anvisningarna här](https://support.zendesk.com/hc/en-us/articles/203660046) för att hämta tillägget och lära dig konfigurera tillägget i Magento.  När detta är klart är det dags att lägga till *Magento-appen för Zendesk* i ditt konto.\n\nKlicka på Admin-ikonen på sidopanelen i Zendesk Support. Välj Appar > Marknad och sök sedan efter appen Magento och klicka på dess tile. Klicka på Installera app i det övre högra hörnet på appsidan Magento. Konfigurera appens inställningar och klicka sedan på Installera:\n\n* **Titel**: Programmets namn.\n* **Butikens webbadress**: Webbadressen till din Magento-butik (t.ex. http://www.zendesk-store.com).\n* **Butikskod**: Lägg till den förvalda butikskod du använder om du har ställt in ”Add Store Code to Urls” på ”Yes” i din Magento-butik.\n* **Åtkomsttoken**: Din API-åtkomsttoken från Zendesk-tillägget för Magento.\n* **Fält-ID för order-ID**: Det egna Zendesk Support-fält-ID du använder för att lagra det tillhörande Magento-ordernumret.\n\nFullständiga anvisningar finns i [installationsguiden](https://support.zendesk.com/hc/en-us/articles/203660066).",
     "parameters": {
       "url": {
         "label": "Butikens webbadress"
@@ -14,7 +16,7 @@
         "label": "Åtkomsttoken"
       },
       "order_id_field_id": {
-        "label": "Fält-ID för ordernummer"
+        "label": "Fält-ID för order-ID"
       }
     }
   },
@@ -63,7 +65,7 @@
       "holded": "Vilande",
       "complete": "Slutförda",
       "closed": "Stängda",
-      "canceled": "Avbeställda",
+      "canceled": "Avbeställd",
       "paypal_reversed": "PayPal återställt",
       "paypal_canceled_reversal": "Återställning av PayPal-avbeställning",
       "pending_paypal": "Väntar hos PayPal"

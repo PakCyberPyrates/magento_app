@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Magento’dan müşteri ve sipariş detaylarını görüntüler.",
     "name": "Magento",
+    "short_description": "Magento’dan müşteri ve sipariş detaylarını görüntüler.",
+    "long_description": "Magento için Zendesk Support uygulaması, işinizi Zendesk Support kayıt verileri ile Magento e-ticaret verileri arasında dinamik iki yönlü bir tümleştirmeyle birleştirir.\n\n### Müşteri memnuniyetini daha iyi görüşmelerle geliştirin\n\n* Bir veya daha fazla Magento sitenizde, tüm müşteri etkileşimlerini tek yerden yönetin- Support ekibinize verimlilik katın.\n* Zendesk Support kayıt sayfalarında ve kullanıcı profillerinde Magento’dan faturalandırma, sevkiyat ve sipariş bilgileri gibi ilgili müşteri verileri hakkında daha fazla görünürlük elde edin.\n* Magento sitelerinde Zendesk Support iletişim kanallarını eklediğinizde müşterileriniz nerede olurlarsa olsunlar Support ekibinizle iletişime geçebilirler.\n\n### Daha hızlı çözümler ve daha yüksek gelirler için ekiplerinizi senkronize edin\n\n* Müşteri sorunlarını, Magento içindeki özel bir Zendesk Support panelindeki destek kayıt bilgilerine erişim ile daha hızlı çözümlemek için kolayca işbirliği yapın.\n* Kritik satış istatistikleri, müşteri profilleri ve satış siparişlerinin yanında destek bilgilerinin tek bir görünümü sayesinde hesap ve müşteri hakkında sürekli güncel bilgilere sahip olun.\n* Daha fazla Support ekibi verimliliği için Zendesk Support kayıtlarını doğrudan Magento’da oluşturun ve güncelleyin.\n\nTüm kurulum talimatı için [kurulum kılavuzuna](https://support.zendesk.com/hc/en-us/articles/203660046) bakın.\n\nBu uygulamayı etkinleştirerek, [Built by Zendesk Kullanım Koşulları](https://www.zendesk.com/company/built-by-zendesk-agmt/)'nı kabul etmiş olursunuz.",
+    "installation_instructions": "### Kullanılabilirlik ve Desteklenen Sürümler\n\nMagento için Zendesk Support'u tüm Zendesk Support müşterileri bedelsiz olarak kullanabilir. Dahası, bu tümleştirme Magento Community 1.7+ ve Enterprise 1.9+ sürümlerinde desteklenmektedir.\n\n### Ön koşullar\n\n* Tüm yönetici haklarıyla, Magento Community v1.7+ veya Magento Enterprise v1.9+\n* PHP 5.2\n\n### Nasıl yüklenir?\n\n*Magento için Zendesk Support* kurulumu iki bölümden oluşur.  Önce Zendesk Support hesabınızda oturum açın ve [buradaki talimatları](https://support.zendesk.com/hc/en-us/articles/203660046) uygulayarak uzantıyı indirin ve uzantının Magento'da nasıl yapılandırılacağını öğrenin.  Bu tamamlanınca hesabınıza *Zendesk Support için Magento Uygulaması*'nı eklemeye hazır hale gelirsiniz.\n\nZendesk Support'ta yan çubuktaki Yönetici simgesine tıklayın. Uygulamalar > Market'i seçin ve Magento uygulamasını bulup kutucuğa tıklayın. Magento uygulama sayfasında sağ üst köşedeki Uygulamayı kur düğmesine tıklayın. Uygulamayı yapılandırıp Kur'a tıklayın:\n\n* **Başlık**: Uygulamanın adı.\n* **Mağaza URL'si**: Magento mağazanızın URL'si (örneğin http://www.zendesk-store.com).\n* **Mağaza Kodu**: Magento mağazanızda \"Mağaza Kodunu Url’lere Ekle\" ayarı \"Evet\"se, kullandığınız varsayılan mağaza kodunu ekleyin.\n* **Erişim belirteci**: Magento için Zendesk Support uzantısından API erişim belirteciniz.\n* **Sipariş No Alan No**: İlgili Magento sipariş numarasını saklamak için kullandığınız Zendesk Support özel alan numarası.\n\nTalimatın tamamı için [kurulum kılavuzuna](https://support.zendesk.com/hc/en-us/articles/203660066) bakın.",
     "parameters": {
       "url": {
         "label": "Mağaza URL"
@@ -14,7 +16,7 @@
         "label": "Erişim belirteci"
       },
       "order_id_field_id": {
-        "label": "Sipariş Numarası Alan Kimliği"
+        "label": "Sipariş No Alan No"
       }
     }
   },

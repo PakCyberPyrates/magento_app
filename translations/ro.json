@@ -1,20 +1,22 @@
 {
   "app": {
-    "description": "Afişează detaliile clientului şi comenzii din Magento.",
     "name": "Magento",
+    "short_description": "Afișează detaliile clientului și comenzii din Magento.",
+    "long_description": "Aplicația Zendesk Support pentru Magento este concepută pentru a vă unifica afacerea, cu ajutorul unei integrări bidirecționale dinamice între datele tichetului Zendesk Support și datele de comerț electronic din Magento.\n\n### Îmbunătățiți satisfacția clienților cu conversații mai eficiente\n\n* Gestionați toate interacțiunile cu clienții într-un singur loc, indiferent dacă aveți un site Magento sau mai multe – stimulați eficiența echipei de asistență.\n* Obțineți o mai bună vizibilitate din Magento asupra datelor relevante ale clientului, cum ar fi facturarea, livrarea sau informațiile comenzii, în paginile tichetelor Zendesk Support și profilurile utilizatorilor.\n* Adăugați canalele de comunicare Zendesk Support la orice site susținut de Magento, astfel încât clienții dumneavoastră să poată lua legătura cu echipa de asistență indiferent unde se află.\n\n### Sincronizați echipele pentru soluționări mai rapide și venituri mai mari\n* Colaborați cu ușurință pentru a rezolva problemele clienților mai rapid, cu acces la informațiile tichetelor de asistență într-un panou Zendesk Support personalizat din cadrul Magento.\n* Sunteți la curent cu contul și clientul printr-o singură vizualizare a informațiilor de asistență oferite în dreptul statisticilor esențiale de vânzări, profilurilor clienților și comenzilor de vânzări.\n* Creați și actualizați tichetele Zendesk Support direct din Magento pentru o eficiență sporită a echipei de asistență.\n\nPentru instrucțiunile de configurare complete, consultați [ghidul de configurare](https://support.zendesk.com/hc/en-us/articles/203660046).\n\nActivând această aplicație, sunteți de acord cu [Termenii de utilizare pentru produsele desemnate prin „Conceput de Zendesk”] (https://www.zendesk.com/company/built-by-zendesk-agmt/).",
+    "installation_instructions": "### Disponibilitate și versiuni acceptate\n\nAplicația Zendesk Support pentru Magento este disponibilă în mod gratuit pentru toți clienții Zendesk Support. În plus, această integrare este acceptată în Magento Community 1.7+ și Enterprise 1.9+.\n\n### Cerințe preliminare\n\n* Magento Community v1.7+ sau Magento Enterprise v1.9+ cu drepturi de administrator depline\n* PHP 5.2\n\n### Modul de instalare\n\nConfigurarea *Zendesk Support pentru Magento* are două părți.  Mai întâi, autentificați-vă în contul Zendesk Support, apoi urmați [instrucțiunile de aici] (https://support.zendesk.com/hc/en-us/articles/203660046) pentru a descărca extensia și a afla mai multe despre configurarea extensiei în Magento.  După finalizare, sunteți gata să adăugați *Magento App for Zendesk Support* în contul dumneavoastră.\n\nÎn Zendesk Support, faceți clic pe pictograma Administrator din bara laterală. Selectați Aplicații > Magazin, apoi găsiți aplicația Magento și faceți clic pe dală. În pagina aplicației Magento, faceți clic pe Instalare aplicație în colțul din dreapta-sus. Configurați setările aplicației, apoi faceți clic pe Instalare:\n\n* **Titlu**: Numele aplicației.\n* **Adresă URL magazin**: Adresa URL a magazinului dumneavoastră Magento (de exemplu, http://www.magazin-zendesk.com).\n* **Cod magazin**: Adăugați codul magazinului implicit pe care îl utilizați, dacă aveți opțiunea „Add Store Code to Urls” setată ca „Yes” în magazinul Magento.\n* **Simbol de acces**: Simbolul dumneavoastră de acces API din extensia Zendesk Support pentru Magento.\n* **Identificator câmp Identificator comandă**: Identificatorul câmpului personalizat Zendesk Support pe care îl utilizați pentru a stoca numărul de comandă Magento asociat.\n\nPentru instrucțiuni complete, consultați [ghidul de configurare](https://support.zendesk.com/hc/en-us/articles/203660066).",
     "parameters": {
       "url": {
         "label": "Adresă URL magazin"
       },
       "store_code": {
         "label": "Cod magazin",
-        "help_text": "Adăugaţi codul magazinului implicit pe care îl utilizaţi, dacă aveţi opţiunea „Add Store Code to Urls” setată ca „Yes” în magazinul dumneavoastră Magento."
+        "help_text": "Adăugați codul magazinului implicit pe care îl utilizați, dacă aveți opțiunea „Add Store Code to Urls” setată ca „Yes” în magazinul dumneavoastră Magento."
       },
       "access_token": {
         "label": "Simbol de acces"
       },
       "order_id_field_id": {
-        "label": "Order ID Field ID"
+        "label": "Identificator câmp Identificator comandă"
       }
     }
   },
@@ -29,12 +31,12 @@
   "global": {
     "error": {
       "title": "A apărut o eroare",
-      "message": "Vă rugăm să repetaţi acţiunea anterioară.",
-      "server": "Solicitarea a eşuat. Vă rugăm să verificaţi corectitudinea configuraţiei şi să încercaţi din nou.",
+      "message": "Vă rugăm să repetați acțiunea anterioară.",
+      "server": "Solicitarea a eșuat. Vă rugăm să verificați corectitudinea configurației și să încercați din nou.",
       "data": "Datele tichetului nu au putut fi citite.",
       "noprofile": "Clientul nu există."
     },
-    "loading": "Se aşteaptă încărcarea datelor tichetului...",
+    "loading": "Se așteaptă încărcarea datelor tichetului...",
     "requesting": "Se solicită date de la Magento..."
   },
   "orders": {

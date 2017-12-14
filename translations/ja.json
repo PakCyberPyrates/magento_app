@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Magentoからの顧客および注文の詳細を表示します。",
     "name": "Magento",
+    "short_description": "Magentoからの顧客および注文の詳細を表示します。",
+    "long_description": "Zendesk Support for Magentoアプリは、お客様のビジネスを、ZendeskのチケットデータとMagentoのeコマースデータとの間の動的な双方向のインテグレーションと一体化させます。\n\n### やりとりの内容を充実させることで顧客満足度を向上\n\n* サポートチーム内で利用しているMagentoサイトの数に関わらず、カスタマーとのすべてのやりとりを1か所で管理します。\n\n* 請求、出荷、注文情報などのMagentoの関連データを、Zendesk Supportチケットページとユーザープロフィールから詳しく参照できます。\n\n*Zendesk Supportコミュニケーションチャネルを任意のMagento対応サイトに追加して、お客様がどこにいてもサポートチームに連絡できるようにします。\n\n### チームを連携させ、問題の迅速な解決と収益の向上を実現\n\n* Magento内のカスタムZendesk Supportパネルからサポートチケット情報にアクセスできるので、両チームがスムースに連携してカスタマーの問題を迅速に解決することができます。\n\n* 販売統計、カスタマープロフィール、注文情報といった重要な情報の隣にサポート情報が表示されるので、アカウントとカスタマーに関する最新の情報を1つのビューで参照できます。\n\n* Zendesk SupportチケットをMagento内で直接作成、更新することで、サポートチームの効率が向上します。 \n\n詳細な設定手順については、[設定ガイド](https://support.zendesk.com/hc/en-us/articles/203660046)を参照してください。\n\nこのアプリを有効にすることにより、[Zendesk作成の利用規約](https://www.zendesk.com/company/built-by-zendesk-agmt/)に同意したものとみなされます。",
+    "installation_instructions": "### 提供状況およびサポートされているバージョン\n\nZendesk Support for MagentoはすべてのZendesk Supportカスタマーに無料で提供されています。さらに、このインテグレーションはMagento Community 1.7+とEnterprise 1.9+でサポートされています。\n\n### 前提条件\n\n* Magento Community v1.7+またはMagento Enterprise v1.9+（フル管理者権限付き）\n* PHP 5.2\n\n### インストール方法\n\nThe *Zendesk Support for Magento*の設定には2つの部分があります。 まず、Zendesk Supportアカウントにサインインし、次に[ここの手順]（https://support.zendesk.com/hc/en-us/articles/203660046）に従って拡張機能をダウンロードして、Magentoでの拡張機能の設定方法を学びます。 これが終わったら、*Magento App for Zendesk Support*をご利用のアカウントに追加する準備は完了です。\n\nZendesk Supportで、サイドバーの管理アイコンをクリックします。「アプリ」> 「マーケットプレイス」を選択してから、Magentoアプリを見つけてタイルをクリックします。Magentoアプリページの右上にある「アプリをインストール」をクリックします。アプリの設定を行い、「インストール」をクリックします。\n\n* **タイトル**:アプリケーションの名前。\n* **店舗URL**:MagentoストアのURL（例: http://www.zendesk-store.com）。\n* **店舗コード**:Magentoストアで「Add Store Code to Urls」を「Yes」に設定している場合、使用するデフォルトの店舗コードを追加します。\n* **アクセストークン**:Magento用Zendesk Support拡張機能のAPIアクセストークン。\n* **注文IDフィールドID**:関連Magento注文番号を保存するために使用しているZendesk SupportカスタムフィールドID。\n\n詳細な手順については、[設定ガイド](https://support.zendesk.com/hc/en-us/articles/203660066)を参照してください。",
     "parameters": {
       "url": {
         "label": "ストアのURL"
@@ -52,7 +54,7 @@
     "total": "合計",
     "error": {
       "message": "注文が存在しません",
-      "no_address": "アドレスがありません。"
+      "no_address": "住所がありません。"
     },
     "statuses": {
       "pending": "保留中",

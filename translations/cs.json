@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Zobrazí detaily zákazníka a objednávky ze softwaru Magento.",
     "name": "Magento",
+    "short_description": "Zobrazí detaily zákazníka a objednávky ze softwaru Magento.",
+    "long_description": "Aplikace Zendesk Support pro Magento slouží ke sjednocení vašeho podnikání pomocí dynamické obousměrné integrace mezi daty tiketu Zendesk Supportu a daty elektronického obchodu služby Magento.\n\n### Zvyšte spokojenost zákazníků pomocí lepších konverzací\n\n* Spravujte veškerou komunikaci se zákazníky na jednom místě, ať už máte jeden web Magento, nebo více řešení pro řízení efektivnosti v rámci svého týmu podpory.\n* Získejte lepší viditelnost příslušných zákaznických dat ze služby Magento, například informace o fakturacích, dodávkách a objednávkách na stránkách tiketů a profilech uživatelů Zendesk Supportu.\n* Přidejte komunikační kanály Zendesk Supportu do libovolného webu využívajícího služby Magento. Díky tomu se vaši zákazníci budou moci obrátit na váš tým podpory, ať jsou kdekoli.\n\n### Synchronizujte své týmy a dosáhnete rychlejšího řešení a vyšších příjmů\n\n* Urychlete řešení problémů zákazníků díky snadné spolupráci s přístupem k informacím podpory tiketu ve vlastním panelu Zendesk Supportu v prostředí aplikace Magento.\n* Zajistěte si průběžnou aktualizaci informací o účtech a zákaznících díky komplexnímu zobrazení informací o podpoře vedle nejdůležitějších prodejních statistik, profilů zákazníků a prodejních objednávek.\n* Vytvářejte a aktualizujte tikety Zendesk Supportu přímo v aplikaci Magento a dosáhněte tím větší efektivity týmu podpory. \n\nÚplné pokyny k instalaci najdete v [příručce k instalaci](https://support.zendesk.com/hc/en-us/articles/203660046).\n\nTím, že zapnete tuto aplikaci, souhlasíte s [Podmínkami používání služby Vytvořeno společností Zendesk](https://www.zendesk.com/company/built-by-zendesk-agmt/).",
+    "installation_instructions": "### Dostupnost a podporované verze\n\nZendesk Support pro Magento je pro všechny zákazníky Zendesk Supportu k dispozici zdarma. Navíc je tato integrace podporována u Magento Community verze 1.7 nebo vyšší a také u Enterprise verze 1.9 nebo vyšší.\n\n### Co je potřeba\n\n* Magento Community verze 1.7 a vyšší nebo Magento Enterprise verze 1.9 a vyšší s plným oprávněním administrátora\n* PHP 5.2\n\n### Jak nainstalovat\n\nNastavení *Zendesk Supportu pro Magento* má dvě části.  Nejprve se přihlaste ke svému účtu Zendesk Supportu a pak si podle [těchto  pokynů](https://support.zendesk.com/hc/en-us/articles/203660046) stáhněte potřebné rozšíření a přečtěte si, jak ho v aplikaci Magento nainstalovat.  Když máte tohle hotovo, můžete *aplikaci Magento pro Zendesk Support* přidat do svého účtu.\n\nV Zendesk Supportu klikněte na ikonu administrátora v postranním panelu. Vyberte Aplikace > Marketplace, pak najděte aplikaci Magento a klikněte na její dlaždici. V pravém horním rohu stránky aplikace Magento klikněte na Nainstalovat aplikaci. Nakonfigurujte nastavení aplikace a pak klikněte na Nainstalovat:\n\n* **Titul**: Název aplikace.\n* **URL obchodu**: URL vašeho obchodu Magento (například http://www.zendesk-store.com).\n* **Kód obchodu**: Pokud máte ve svém obchodu Magento možnost „Add Store Code to Urls“ (Přidávat k URL kódy obchodu) nastavenou na „Yes“ (Ano), přidejte kód výchozího obchodu, který používáte.\n* **Přístupový token**: Váš přístupový token API z rozšíření Zendesk Support pro Magento.\n* **ID pole ID objednávky**: ID vlastního pole Zendesk Supportu, které používáte k ukládání čísla související objednávky v obchodu Magento.\n\nPodrobné pokyny viz [příručka k instalaci](https://support.zendesk.com/hc/en-us/articles/203660066).",
     "parameters": {
       "url": {
         "label": "URL obchodu"
@@ -14,7 +16,7 @@
         "label": "Přístupový token"
       },
       "order_id_field_id": {
-        "label": "ID objednávkypole ID objednávky"
+        "label": "ID pole ID objednávky"
       }
     }
   },
@@ -38,7 +40,7 @@
     "requesting": "Vyžádání dat z Magento..."
   },
   "orders": {
-    "id": "POSLEDNÍ OBJEDNÁVKY",
+    "id": "NEDÁVNÉ OBJEDNÁVKY",
     "status": "STAV"
   },
   "order": {

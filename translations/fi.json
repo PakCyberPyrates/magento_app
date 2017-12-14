@@ -1,7 +1,9 @@
 {
   "app": {
-    "description": "Näyttää asiakkaan ja tilauksen tiedot Magentosta.",
     "name": "Magento",
+    "short_description": "Näyttää asiakkaan ja tilauksen tiedot Magentosta.",
+    "long_description": "Zendesk Support for Magento -sovelluksella yhdistetään yrityksesi ja dynaaminen kaksisuuntainen integraatio Zendesk Support -tikettitietojen ja Magenton e-kauppatietojen välille.\n\n### Paranna asiakastyytyväisyyttä parempien keskustelujen ansiosta.\n\n* Hallitse kaikkea vuorovaikutusta asiakkaiden kanssa yhdestä paikasta, olipa sinulla yksi tai useampia Magento-kohteita – näin tukitiimistä tulee entistä tehokkaampi.\n* Hanki enemmän näkyvyyttä asiaan liittyviin asiakastietoihin Magentosta, kuten laskutus-, toimitus- ja tilaustiedot Zendeskin tikettisivuilla ja käyttäjäprofiileissa.\n* Lisää Zendesk Support -viestintäkanavat mihin tahansa Magentoa käyttävään sivustoon, jotta asiakkaasi voivat keskustella tukitiimin kanssa, olivatpa he missä tahansa.\n\n### Synkronoi tiimisi nopeampien ratkaisujen ja suuremman voiton saavuttamiseksi.\n\n* Tee helposti yhteistyötä asiakasongelmien ratkaisemiseksi nopeammin antamalla käyttöoikeus tukitikettitietoihin mukautetussa Zendesk Support -paneelissa Magentossa.\n* Pysy ajan tasalla tilin ja asiakkaan tiedoista esittämällä tukitiedot kriittisten myyntitilastojen, asiakasprofiilien ja ostotilausten vieressä.\n* Luo ja päivitä Zendesk Support -tiketit suoraan Magentosta tukitiimin tehokkuuden parantamiseksi.\n\nTäydelliset asennusohjeet ovat [asennusoppaassa](https://support.zendesk.com/hc/en-us/articles/203660046).\n\nOttamalla tämän sovelluksen käyttöön hyväksyt [Zendeskin kehittämä -käyttöehdot](https://www.zendesk.com/company/built-by-zendesk-agmt/).",
+    "installation_instructions": "### Saatavuus ja tuetut versiot\n\nZendesk Support Magentoa varten on saatavilla maksutta  kaikille Zendesk Support -asiakkaille. Lisäksi tätä integrointia tuetaan Magento Community 1.7+- ja Enterprise 1.9+ -versioissa.\n\n### Edellytykset\n\n* Magento Community v1.7+ tai Magento Enterprise v1.9+ ja täydet järjestelmänvalvojan oikeudet\n* PHP 5.2\n\n### Asennus\n\n*Zendesk Support  Magentoa varten* asennetaan kahdessa osassa.  Kirjaudu ensin sisään Zendesk Support -tilille ja noudata sitten [näitä ohjeita](https://support.zendesk.com/hc/en-us/articles/203660046) ladataksesi laajennuksen ja tutustuaksesi laajennuksen määrittämiseen Magentossa.  Kun tämä on tehty, olet valmis lisäämään *Magento-sovelluksen Zendesk Supportia varten* tilillesi.\n\nNapsauta Zendesk Supportissa Järjestelmänvalvoja-kuvaketta sivupalkissa. Valitse Sovellukset > Sovelluskauppa, etsi Magento-sovellus ja napsauta ruutua. Napsauta Magento-sovelluksen sivun oikeassa yläkulmassa Asenna sovellus. Määritä sovelluksen asetukset ja napsauta sitten Asenna:\n\n* **Otsikko**: Sovelluksen nimi.\n* **Säilytä URL-osoite**: Magento-sovelluskaupan URL-osoite (esimerkiksi http://www.zendesk-store.com).\n* **Myymälän koodi**: Lisää käyttämäsi oletusmyymäläkoodi, jos kohdassa Add Store Code to Urls on valittu Magento-myymälälle asetus Yes.\n* **Käyttöoikeustoken**: API-käyttöoikeustoken Zendesk Support -laajennuksesta Magentoa varten.\n* **Tilaustunnuksen kenttätunnus**: Zendesk Supportin mukautettu kenttätunnus, jota käytät siihen liittyvän Magento-tilausnumeron tallentamiseen.\n\nKatso tarkempia ohjeita [asennusoppaasta](https://support.zendesk.com/hc/en-us/articles/203660066).",
     "parameters": {
       "url": {
         "label": "Säilytä URL-osoite"
@@ -14,7 +16,7 @@
         "label": "Käyttöoikeustoken"
       },
       "order_id_field_id": {
-        "label": "Tilausnumeron kenttätunnus"
+        "label": "Tilaustunnuksen kenttätunnus"
       }
     }
   },
